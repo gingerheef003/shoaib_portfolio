@@ -1,0 +1,35 @@
+.inline {
+  letter-spacing: 0.12em;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.type-writer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  gap: 20px;
+  min-height: 40px;
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+}

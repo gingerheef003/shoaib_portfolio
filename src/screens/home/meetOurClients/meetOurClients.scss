@@ -1,0 +1,68 @@
+.moc{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .moc-title{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+
+    .moc-sub-title{
+        font-size: large;
+        font-weight: bold;
+        color: #43505B;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .clients{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 0;
+        width: 100%;
+        justify-content: space-evenly;
+
+        .client-card{
+            width: 30%;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .client-img{
+                width: 100%;
+            }
+
+            .client-name{
+                font-weight: bold;
+                padding-top: 5px;
+                font-size: larger;
+            }
+
+            .client-service{
+                padding: 5px 0;
+                font-size: larger;
+            }
+        }
+    }
+
+    .browse-portfolios-btn{
+        border: 1px grey solid;
+        width: fit-content;
+        margin: 20px 0;
+        padding: 10px 15px;
+        border-radius: 7px;
+        transition: all 0.3s;
+        cursor: pointer;
+        font-size: large;
+
+        &:hover{
+            color: white;
+            background-color: #C12A45;
+            border: none;
+        }
+    }
+}

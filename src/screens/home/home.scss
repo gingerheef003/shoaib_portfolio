@@ -1,0 +1,49 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  .first-home {
+    background-color: #a7d8e6;
+    height: calc(100vh - 70px);
+    // width: calc(100% - 80px);
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    // padding: 40px;
+
+    .home1 {
+      position: absolute;
+      bottom: 0;
+      right: 30px;
+      height: 90%;
+    }
+
+    .texts {
+      width: 60%;
+      flex-wrap: wrap;
+      text-align: left;
+      position: absolute;
+      top: 30%;
+      left: 8%;
+
+      .main-text {
+        font-size: xxx-large;
+        font-weight: bold;
+      }
+
+      .changing-text {
+        margin: 10px 0px;
+        width: 60%;
+      }
+
+      .secondary-text {
+        width: 40%;
+        font-size: larger;
+      }
+    }
+  }
+}

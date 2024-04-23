@@ -1,0 +1,52 @@
+.navbar {
+  height: 60px;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+
+  .left {
+    height: 100%;
+    padding: 10px 0;
+
+    .logo {
+      padding: 0;
+      cursor: pointer;
+      height: 45px;
+      object-fit: cover;
+    }
+  }
+
+  .mid {
+    padding: 20px 0;
+
+    .nav-elements {
+      display: flex;
+      gap: 30px;
+
+      .nav-element {
+        cursor: pointer;
+        color: #43505B;
+        font-weight: bold;
+
+        &.active,
+        &:hover {
+          color: #961128;
+        }
+      }
+    }
+  }
+
+  .right {
+    padding: 20px 0;
+
+    .speak-to-expert-btn{
+        background-color: #961128;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 10px;
+    }
+  }
+}
